@@ -12,7 +12,7 @@ function addANewNote() {
     console.log("The text inserted is " + noteText);
 
     const newNote = document.createElement("p");
-
+    
     newNote.innerHTML = "Test new paragraph created";
 
     document.body.appendChild(newNote);
