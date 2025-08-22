@@ -14,6 +14,7 @@ function addANewNote() {
     const newNote = document.createElement("p");
     
     newNote.innerHTML = "Test new paragraph created";
+    newNote.classList.add("single-note");
 
     document.body.appendChild(newNote);
 }
